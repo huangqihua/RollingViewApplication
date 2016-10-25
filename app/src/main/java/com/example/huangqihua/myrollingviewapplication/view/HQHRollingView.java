@@ -28,8 +28,8 @@ public class HQHRollingView extends ViewFlipper {
     private boolean isSetAnimDuration = false;
     private OnItemClickListener onItemClickListener;
 
-    private int interval = 2000;
-    private int animDuration = 500;
+    private int interval = 500;  //时间间隔
+    private int animDuration = 100;
     private int textSize = 14;
     private int textColor = 0xffffffff;
 
